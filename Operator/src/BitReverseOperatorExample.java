@@ -21,7 +21,7 @@ public class BitReverseOperatorExample {
   {
     String str = Integer.toBinaryString(value);
     while(str.length() < 32)
-      str = "0" + str;
+      str = "0" + str; // 결합 32비트 맞춰줌 ;
     return str;
   }
 }
