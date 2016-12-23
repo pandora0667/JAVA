@@ -9,7 +9,6 @@ public class Exercise07 {
 
     boolean run = true;
     Scanner scanner = new Scanner(System.in);
-    //int select = scanner.nextInt();
 
    Outter : while (run) {
       System.out.println("----------------------------------");
