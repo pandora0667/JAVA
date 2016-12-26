@@ -15,3 +15,5 @@ public class AdvancedForExample {
     System.out.println("점수평균 = " + avg);
   }
 }
+
+
