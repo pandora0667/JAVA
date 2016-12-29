@@ -1,0 +1,17 @@
+/**
+ * Created by jusk2 on 2016-12-28.
+ * Chapter05 Exercise07
+ */
+public class Exercise07 {
+  public static void main(String[] args) {
+    int max = 0;
+    int[] array = {1, 5, 3, 8, 2};
+
+    for (int i=0; i<array.length; i++) {
+      if (max < array[i])
+        max = array[i];
+    }
+
+    System.out.println("MAX : " + max);
+  }
+}
