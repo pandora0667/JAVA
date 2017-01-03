@@ -19,21 +19,25 @@ public class Exercise09 {
       int selectNumber = scanner.nextInt();
 
       switch (selectNumber) {
+
         case 1:
           System.out.print("학생수 입력 > ");
           studentNum = scanner.nextInt();
           score = new int[studentNum]; // Null 이므로 배열 초기화
           break;
+
         case 2:
           for (int i=0; i<studentNum; i++) {
             System.out.print("score[" + i + "] > ");
              score[i] = scanner.nextInt();
           }
           break;
+
         case 3:
           for (int i=0; i<studentNum; i++)
             System.out.println("score[" + i + "] : " + score[i]);
           break;
+
         case 4:
           int maxScore = 0, sumScore = 0;
           double avgScore = 0.0D;
@@ -43,10 +47,12 @@ public class Exercise09 {
             if (maxScore < score[i])
               maxScore = score[i];
           }
+
           avgScore = sumScore / studentNum;
           System.out.println("최고 점수 : " + maxScore);
           System.out.println("평균 점수 : " + avgScore);
           break;
+
         case 5:
           break outter;
       }
