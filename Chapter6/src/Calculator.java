@@ -3,6 +3,8 @@
  */
 public class Calculator {
 
+  static double pi = 3.141592;
+
   //Method
   void powerOn(){
     System.out.println("환영합니다~!");

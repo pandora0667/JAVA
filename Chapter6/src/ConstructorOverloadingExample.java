@@ -13,8 +13,8 @@ public class ConstructorOverloadingExample {
     ConstructorOverloading2 car2 = new ConstructorOverloading2("자가용");
     System.out.println("car2.company : " + car2.company);
     System.out.println("car2.model : " + car2.model);
-    System.out.println(car1.color);
-    System.out.println(car1.maxSpeed);
+    System.out.println(car2.color);
+    System.out.println(car2.maxSpeed);
     System.out.println();
 
     ConstructorOverloading2 car3 = new ConstructorOverloading2("자가용", "RED");

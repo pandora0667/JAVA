@@ -4,6 +4,8 @@
 public class CalculatorExample {
   public static void main(String[] args) {
 
+    double resultPi = 10 * 10 * Calculator.pi;
+
     Calculator myCalculator = new Calculator();
     myCalculator.powerOn();
 
@@ -13,6 +15,8 @@ public class CalculatorExample {
     double resultDivide = myCalculator.divide(4, 2);
     System.out.println("Division result : " + resultDivide);
 
+    System.out.println();
+    System.out.println("Result of PI : " + resultPi);
     System.out.println();
     myCalculator.powerOff();
   }
