@@ -30,3 +30,4 @@ public class getterSetter {
     this.speed = 0;
   }
 }
+

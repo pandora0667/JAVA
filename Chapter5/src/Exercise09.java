@@ -27,14 +27,14 @@ public class Exercise09 {
           break;
 
         case 2:
-          for (int i=0; i<studentNum; i++) {
+          for (int i=0; i<score.length; i++) {
             System.out.print("score[" + i + "] > ");
              score[i] = scanner.nextInt();
           }
           break;
 
         case 3:
-          for (int i=0; i<studentNum; i++)
+          for (int i=0; i<score.length; i++)
             System.out.println("score[" + i + "] : " + score[i]);
           break;
 
@@ -42,13 +42,13 @@ public class Exercise09 {
           int maxScore = 0, sumScore = 0;
           double avgScore = 0.0D;
 
-          for (int i=0; i<studentNum; i++) {
+          for (int i=0; i<score.length; i++) {
             sumScore += score[i];
             if (maxScore < score[i])
               maxScore = score[i];
           }
 
-          avgScore = sumScore / studentNum;
+          avgScore = sumScore / score.length;
           System.out.println("최고 점수 : " + maxScore);
           System.out.println("평균 점수 : " + avgScore);
           break;
