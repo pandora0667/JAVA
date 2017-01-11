@@ -11,7 +11,7 @@ public class Exercise09 {
     int[] score = null;
     Scanner scanner = new Scanner(System.in);
 
-    outter : while (run) {
+     while (run) {
       System.out.println("|----------------------------------------------------------|");
       System.out.println("| 1. 학생수 | 2. 점수입력 | 3. 점수리스트 | 4. 분석 | 5.종료 |");
       System.out.println("|----------------------------------------------------------|");
@@ -54,7 +54,11 @@ public class Exercise09 {
           break;
 
         case 5:
-          break outter;
+          run = false;
+          break;
+
+        default:
+          System.out.println("다시 입력하세요. ");
       }
     }
   }
