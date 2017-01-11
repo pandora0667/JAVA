@@ -83,9 +83,9 @@ public class BankApplication {
 
   private static void accountList() {
 
-    System.out.println("----------");
-    System.out.println(" 계좌생성 ");
-    System.out.println("----------");
+    System.out.println("------------");
+    System.out.println(" 계좌리스트 ");
+    System.out.println("------------");
 
     for (int i = 0; i < accountArray.length; i++) {
       BankAccount account = accountArray[i];
@@ -157,12 +157,11 @@ public class BankApplication {
     BankAccount account = null;
 
     for (int i = 0; i < accountArray.length; i++) {
-      if (accountArray[i] != null) {
+      if (accountArray[i] != null)
         if (ano.equals(accountArray[i].getAno())) {
           account = accountArray[i];
           break;
         }
-      }
     }
     return account;
   }
@@ -171,11 +170,10 @@ public class BankApplication {
   private static boolean findAccount(String ano, String owner) {
 
     for (int i = 0; i < accountArray.length; i++) {
-      if (accountArray[i] != null) {
+      if (accountArray[i] != null)
         if (ano.equals(accountArray[i].getAno())) {
           return false;
         }
-      }
     }
     return true;
   }
