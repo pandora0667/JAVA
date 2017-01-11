@@ -47,7 +47,6 @@ public class BankApplication {
     }
   }
 
-
   private static void createAccount() {
 
     System.out.println("----------");
