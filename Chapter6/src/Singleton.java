@@ -8,7 +8,7 @@ public class Singleton {
 
   private Singleton() {}
 
-  static  Singleton getInstance() {
+  public static  Singleton getInstance() {
     return singleton;
   }
 }
