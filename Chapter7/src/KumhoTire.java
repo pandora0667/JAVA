@@ -2,11 +2,13 @@
  * Created by jusk2 on 2017-01-12.
  */
 public class KumhoTire extends Tire {
+
   //filed
   //Constructor
   public KumhoTire(String location, int maxRotation) {
     super(location, maxRotation);
   }
+
   //Method
   @Override
   public boolean roll() {
