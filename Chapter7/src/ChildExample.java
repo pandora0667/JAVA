@@ -14,9 +14,7 @@ public class ChildExample {
     parent.method3();
     */
 
-    Child child = (Child)
-
-        ;
+    Child child = (Child) parent;
     child.field2 = "yyy";
     child.method3();
   }
