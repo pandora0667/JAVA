@@ -2,6 +2,7 @@
  * Created by jusk2 on 2017-01-12.
  */
 public class Car {
+
   //filed
   Tire frontLeftTire = new Tire("앞 왼쪽", 6);
   Tire frontRightTire = new Tire("앞 오른쪽", 2);
