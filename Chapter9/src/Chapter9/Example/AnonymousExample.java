@@ -7,7 +7,7 @@ public class AnonymousExample {
   public static void main(String[] args) {
     Anonymous anonymous = new Anonymous();
 
-    anonymous.filed.run();
+    anonymous.field.run();
     anonymous.method1();
     anonymous.method2(new Vehicle() {
       @Override

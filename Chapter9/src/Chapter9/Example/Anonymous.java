@@ -4,7 +4,7 @@ package Chapter9.Example;
  * Created by jusk2 on 2017-02-01.
  */
 public class Anonymous {
-  Vehicle filed = new Vehicle() {
+  Vehicle field = new Vehicle() {
     @Override
     public void run() {
       System.out.println("자전거가 달립니다.");
